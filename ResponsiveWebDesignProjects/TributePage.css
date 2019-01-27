@@ -1,0 +1,16 @@
+
+#main {
+    background-color: #dcdcdc;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; 
+}
+
+#img-div {
+    background-color: white;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#image {
+    width: auto;
+    height: auto;
+}
