@@ -41,7 +41,8 @@ h1 {
 }
 
 #tribute-info {
-    
+    display: flex;
+    flex-direction: column;
 }
 
 h3 {
@@ -59,5 +60,5 @@ li {
 
 footer {
     text-align: center;
-    text-
+    font-style: italic;
 }
