@@ -31,16 +31,23 @@
                             <option value="Prefer not to say">Prefer not to say</option>
                             <option value="Other">Other</option>
                         </select>
-                        </label>
-                </div>
-                <div>
-                    <label>* How like is that you would recommend freeCodeCamp to a friend?
-                        <label><input type="radio" name="recommendation" value="Definitely">Definitely</label>
-                        <label><input type="radio" name="recommendation" value="Maybe">Maybe</label>
-                        <label><input type="radio" name="recommendation" value="Not Sure">Not sure</label>
                     </label>
                 </div>
-                <div>
+                <div id="recommend-codecamp">
+                    <ul style="list-style: none;">* How like is that you would recommend freeCodeCamp to a friend?
+                        <li>
+                            <label><input type="radio" name="recommendation" value="Definitely">Definitely</label>
+                        </li>
+                        <li>
+                            <label><input type="radio" name="recommendation" value="Maybe">Maybe</label>
+                        </li>
+                        <li>
+                            <label><input type="radio" name="recommendation" value="Not Sure">Not sure</label>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div id="enjoyment">
                     <label>What do you like most in FCC:
                         <select>
                             <option disabled="">Select an option</option>
@@ -52,19 +59,50 @@
                     </label>
                 </div>
                 <div id="future-improvement">
-                    <ul>
-                        <li style="list-style: none;">
+                    <ul style="list-style: none;">
+                        Things that should be improved in the future<br>
+                        (Check all that apply):
+                        <li>
                             <label><input type="checkbox">Front-end Projects</label>
                         </li>
-                        
-                        <label><input type="checkbox">Front-end Projects</label>
-                        <label><input type="checkbox">Front-end Projects</label>
-                        <label><input type="checkbox">Front-end Projects</label>
-                        <label><input type="checkbox">Front-end Projects</label>
-                        <label><input type="checkbox">Front-end Projects</label>
-                        <label><input type="checkbox">Front-end Projects</label>
-                        <label><input type="checkbox">Front-end Projects</label>
+                        <li>
+                            <label><input type="checkbox">Back-end Projects</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Data Visualization</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Challenges</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Open Source Community</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Gitter help rooms</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Videos</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">City Meetups</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Wiki</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Forum</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Additional Courses</label>
+                        </li>
                     </ul>
+                </div>
+                <div id="suggestion">
+                    <label>
+                        Any Comments or Suggestions?
+                        <textarea placeholder="Enter your comment here..."></textarea>
+                        <button>Submit</button>
+                    </label>
                 </div>
             </form>
         </body>
