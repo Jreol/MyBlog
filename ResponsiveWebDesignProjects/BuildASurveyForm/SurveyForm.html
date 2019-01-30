@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html>
     <main>
+        <div>
+            <head>
+                <title>Survey Form</title>
+            </head>
+        </div>
         <div class="form-heading">
             <h1 id="title">Survey Form</h1>
         </div>
-        <div>
-            <body id="description">
-                <p>Let us know how we can improve freeCodeCamp!</p>
-                <div>
-                    <form>
-                        <label>* Name: <input type="text" placeholder="Enter your name:"></label>    
-                        <label>* Email: <input type="text" placeholder="Enter your Email:"></label>
-                        <label>* Age: <input type="number" placeholder="Age"></label>
-                        <label>Which option best describes your current role?
+        <body id="description">
+            <p>Let us know how we can improve freeCodeCamp!</p>
+            <form id="survey-form">
+                <div id="name">
+                    <label>* Name: <input type="text" placeholder="Enter your name:"></label>    
+                </div>
+                <div id="email">
+                    <label>* Email: <input type="text" placeholder="Enter your Email:"></label>
+                </div>
+                <div id="age">
+                    <label>* Age: <input type="number" placeholder="Age"></label>
+                </div>
+                <div id="current-role">
+                    <label>Which option best describes your current role?
                         <select>
                             <option disabled="">Select an option</option>
                             <option value="Student">Student</option>
                             <option value="Full Time Job">Full Time Job</option>
+                            <option value="Full Time Learner">Full Time Learner</option>
+                            <option value="Prefer not to say">Prefer not to say</option>
+                            <option value="Other">Other</option>
                         </select>
                         </label>
-                    </form>
-                    
                 </div>
-                
-            </body>
-        </div>
+                <div>
+                    <label>* How like is that you would recommend freeCodeCamp to a friend?
+                        <label id="recommendation"><input type="radio" for="recommendation">Definitely</label>
+                        <label id="recommendation"><input type="radio" for="recommendation">Maybe</label>
+                        <label id="recommendation"><input type="radio" for="recommendation">Not sure</label>
+                    </label>
+                </div>
+            </form>
+        </body>
     </main>
-
 </html>
