@@ -1,6 +1,29 @@
-main {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+body {
+    background-color: #aadfdf;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    min-width: 200px;
+    display: block;
 }
 
+div {
+    display: block;
+}
+
+#survey-border {
+    background-color: rgb(250, 250, 250);
+    width: 75%;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+}
+
+#title {
+    color: black;
+    text-align: center;
+}
+
+#survey-form {
+    display: block;
+}
